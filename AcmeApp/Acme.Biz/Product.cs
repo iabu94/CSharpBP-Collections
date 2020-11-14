@@ -18,6 +18,11 @@ namespace Acme.Biz
         {
             var colorOptions = new List<string>() 
                 { "Red", "Black", "White", "Blue" };
+
+            var states = new Dictionary<string, string>();
+            states.Add("LK", "Sri Lanka");
+            states.Add("IN", "India");
+            states.Add("CH", "China");
         }
         public Product(int productId,
                         string productName,
